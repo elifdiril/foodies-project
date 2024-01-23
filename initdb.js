@@ -6,7 +6,7 @@ const dummyMeals = [
     title: "cupcake",
     slug: "cupcake",
     image: "birthday-cupcake.jpg",
-    summary: "cupcake.",
+    summary: "cupcake Aliquip excepteur culpa magna ad. Incididunt sit sunt ea labore anim. Fugiat aute qui eiusmod aute commodo proident aliquip voluptate deserunt.",
     instructions: `
     1-Proident commodo incididunt incididunt ad occaecat qui nulla sit nisi commodo nisi quis magna enim nulla duis do ut aliqua.
 
@@ -19,7 +19,7 @@ const dummyMeals = [
     title: "popsicles",
     slug: "popsicles",
     image: "fruit-popsicles.jpg",
-    summary: "popsicles.",
+    summary: "popsicles Aliquip excepteur culpa magna ad. Incididunt sit sunt ea labore anim. Fugiat aute qui eiusmod aute commodo proident aliquip voluptate deserunt.",
     instructions: `
     1-Eu in esse nisi ut veniam dolore labore magna do veniam mollit id aliqua reprehenderit adipisicing exercitation dolor adipisicing.
 
@@ -32,7 +32,7 @@ const dummyMeals = [
     title: "ice-cream cone",
     slug: "ice-cream-cone",
     image: "ice-cream-cone-splash.jpg",
-    summary: "ice-cream cone.",
+    summary: "ice-cream cone Aliquip excepteur culpa magna ad. Incididunt sit sunt ea labore anim. Fugiat aute qui eiusmod aute commodo proident aliquip voluptate deserunt.",
     instructions: `
     1-Adipisicing aliqua ut laborum cillum velit aliqua Lorem tempor exercitation laborum in exercitation aliquip quis Lorem.
 
@@ -47,7 +47,7 @@ const dummyMeals = [
     title: "lime lemonade",
     slug: "lime-lemonade",
     image: "lime-lemonade.jpg",
-    summary: "lime lemonade.",
+    summary: "lime lemonade Aliquip excepteur culpa magna ad. Incididunt sit sunt ea labore anim. Fugiat aute qui eiusmod aute commodo proident aliquip voluptate deserunt.",
     instructions: `
     1-Consequat ipsum ut ex cupidatat.
 
@@ -62,7 +62,7 @@ const dummyMeals = [
     title: "macarons",
     slug: "macarons",
     image: "macarons-in-tower.jpg",
-    summary: "macarons.",
+    summary: "macarons Aliquip excepteur culpa magna ad. Incididunt sit sunt ea labore anim. Fugiat aute qui eiusmod aute commodo proident aliquip voluptate deserunt.",
     instructions: `
     1-Laborum irure amet deserunt fugiat sint.
 
@@ -77,7 +77,25 @@ const dummyMeals = [
     title: "peach tea",
     slug: "peach-tea",
     image: "peach-tea.jpg",
-    summary: "peach tea.",
+    summary: `peach tea Aliquip excepteur culpa magna ad. Incididunt sit sunt ea labore anim. Fugiat aute qui eiusmod aute commodo proident aliquip voluptate deserunt. Laboris ullamco quis veniam in tempor. Nostrud irure enim qui adipisicing est. Laboris quis eu consectetur proident mollit. Amet cillum qui Lorem ex id consectetur.
+
+    Consectetur cupidatat minim consectetur velit minim duis proident aliquip laboris. Esse commodo non enim pariatur fugiat sint fugiat est. Nisi dolor aliquip elit id nostrud pariatur fugiat.
+    
+    Proident deserunt laborum irure consequat qui eu sunt. Qui amet fugiat id consequat. Eiusmod irure culpa sint proident culpa occaecat nulla eiusmod fugiat. Ipsum id est ad ea aliquip quis ea. Nisi nostrud ad amet eiusmod eiusmod irure officia consectetur officia.
+    
+    Est consequat officia incididunt labore. Sit deserunt labore nostrud duis. Est quis irure excepteur aliqua mollit eu deserunt est. Elit adipisicing anim laborum ex sunt. Aliquip excepteur sint ea aliqua ipsum eiusmod.
+    
+    Amet nulla tempor proident officia laboris adipisicing officia cillum consectetur. Ullamco laborum et id do tempor ad nisi pariatur. Minim irure laboris proident in cupidatat ipsum ea quis.
+    
+    Mollit ea veniam magna nisi ut. Incididunt incididunt elit incididunt non nostrud occaecat. Aliquip sunt aliqua adipisicing consequat cillum est anim. Et occaecat mollit aute mollit et quis in veniam fugiat.
+    
+    Culpa qui enim reprehenderit deserunt in veniam cillum ea reprehenderit. Reprehenderit excepteur dolore dolor minim tempor id magna. Occaecat quis est commodo quis. Quis sint pariatur mollit fugiat. Qui est cillum eiusmod et eu minim culpa sunt aliquip.
+    
+    Non enim Lorem labore sint. Occaecat nostrud quis aliquip et nostrud labore. Adipisicing excepteur occaecat et labore. Ea consectetur occaecat irure ea minim cillum.
+    
+    Nulla elit id adipisicing sit. Duis eiusmod quis ipsum ea cupidatat ullamco dolore proident. Commodo qui reprehenderit adipisicing veniam ad. Exercitation aliquip culpa qui laborum aliquip eiusmod aliquip sunt. Id laborum enim dolore ut veniam sunt.
+    
+    Ipsum consectetur eiusmod in eiusmod veniam Lorem laborum. Nostrud id dolore mollit est laborum ea Lorem aute. Veniam aliquip dolore minim aute laboris ea. Consectetur deserunt dolore Lorem amet anim.`,
     instructions: `
     1-Eiusmod duis enim adipisicing et ipsum ipsum tempor minim amet amet aliqua incididunt duis consequat.
 
@@ -92,7 +110,7 @@ const dummyMeals = [
     title: "honey on pancakes",
     slug: "honey-on-pancakes",
     image: "pouring-honey-on-pancakes.jpg",
-    summary: "honey on pancakes.",
+    summary: "honey on pancakes Aliquip excepteur culpa magna ad. Incididunt sit sunt ea labore anim. Fugiat aute qui eiusmod aute commodo proident aliquip voluptate deserunt.",
     instructions: `
     1-Enim elit fugiat sint Lorem ut voluptate ut fugiat pariatur excepteur Lorem consequat occaecat esse labore pariatur pariatur ea nisi tempor veniam nostrud elit deserunt incididunt aliqua duis cupidatat do nisi cupidatat ex eu ea.
 
@@ -105,7 +123,25 @@ const dummyMeals = [
     title: "strawberry milk splash",
     slug: "strawberry-milk-splash",
     image: "strawberry-milk-splash.jpg",
-    summary: "strawberry milk splash.",
+    summary: `strawberry milk splash Aliquip excepteur culpa magna ad. Incididunt sit sunt ea labore anim. Fugiat aute qui eiusmod aute commodo proident aliquip voluptate deserunt. Laboris ullamco quis veniam in tempor. Nostrud irure enim qui adipisicing est. Laboris quis eu consectetur proident mollit. Amet cillum qui Lorem ex id consectetur.
+
+    Consectetur cupidatat minim consectetur velit minim duis proident aliquip laboris. Esse commodo non enim pariatur fugiat sint fugiat est. Nisi dolor aliquip elit id nostrud pariatur fugiat.
+    
+    Proident deserunt laborum irure consequat qui eu sunt. Qui amet fugiat id consequat. Eiusmod irure culpa sint proident culpa occaecat nulla eiusmod fugiat. Ipsum id est ad ea aliquip quis ea. Nisi nostrud ad amet eiusmod eiusmod irure officia consectetur officia.
+    
+    Est consequat officia incididunt labore. Sit deserunt labore nostrud duis. Est quis irure excepteur aliqua mollit eu deserunt est. Elit adipisicing anim laborum ex sunt. Aliquip excepteur sint ea aliqua ipsum eiusmod.
+    
+    Amet nulla tempor proident officia laboris adipisicing officia cillum consectetur. Ullamco laborum et id do tempor ad nisi pariatur. Minim irure laboris proident in cupidatat ipsum ea quis.
+    
+    Mollit ea veniam magna nisi ut. Incididunt incididunt elit incididunt non nostrud occaecat. Aliquip sunt aliqua adipisicing consequat cillum est anim. Et occaecat mollit aute mollit et quis in veniam fugiat.
+    
+    Culpa qui enim reprehenderit deserunt in veniam cillum ea reprehenderit. Reprehenderit excepteur dolore dolor minim tempor id magna. Occaecat quis est commodo quis. Quis sint pariatur mollit fugiat. Qui est cillum eiusmod et eu minim culpa sunt aliquip.
+    
+    Non enim Lorem labore sint. Occaecat nostrud quis aliquip et nostrud labore. Adipisicing excepteur occaecat et labore. Ea consectetur occaecat irure ea minim cillum.
+    
+    Nulla elit id adipisicing sit. Duis eiusmod quis ipsum ea cupidatat ullamco dolore proident. Commodo qui reprehenderit adipisicing veniam ad. Exercitation aliquip culpa qui laborum aliquip eiusmod aliquip sunt. Id laborum enim dolore ut veniam sunt.
+    
+    Ipsum consectetur eiusmod in eiusmod veniam Lorem laborum. Nostrud id dolore mollit est laborum ea Lorem aute. Veniam aliquip dolore minim aute laboris ea. Consectetur deserunt dolore Lorem amet anim.`,
     instructions: `
     1-Irure eu culpa excepteur tempor sint dolor nulla nisi fugiat quis proident enim tempor voluptate voluptate non consequat cupidatat exercitation tempor ullamco enim enim deserunt nisi fugiat officia eu dolore proident aute dolore velit.
 
