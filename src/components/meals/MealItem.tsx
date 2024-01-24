@@ -26,11 +26,11 @@ export default function MealItem({
           className="object-cover rounded-3xl max-h-60 p-5"
         />
       </div>
-      <div className="flex flex-col w-full text-[#402714] text-lg font-mono text-center capitalize">
+      <div className="flex flex-col items-center w-full text-[#402714] text-lg font-mono text-center capitalize">
         <h2 className="font-extrabold text-xl">{title}</h2>
         <p className="font-medium text-base">by {creator}</p>
         <p className="overflow-hidden line-clamp-2">{summary}</p>
-        <div className="cursor-pointer font-bold">
+        <div className="cursor-pointer font-bold bg-[#C63D2F] w-3/5 p-1 rounded-full text-[#FFBB5C] hover:opacity-60">
           <Link href={`/meals/${slug}`}>View Details</Link>
         </div>
       </div>
