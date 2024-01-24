@@ -7,7 +7,7 @@ export default async function MealsPage() {
   const meals = await getMeals();
 
   return (
-    <div className="flex flex-col justify-between bg-[#FF9B50] relative">
+    <div className="flex flex-col justify-between bg-[#fff] relative">
       <Header />
       <MealsGrid meals={meals} />
       <Footer />

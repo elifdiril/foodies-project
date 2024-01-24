@@ -15,7 +15,7 @@ interface Meal {
 const MealsGrid = ({meals}: {meals: Meal[]}) => {
 
     return (
-        <div className='grid grid-cols-4 gap-4 relative p-10 min-h-[calc(100vh-80px)]'>
+        <div className='grid grid-cols-3 gap-4 relative p-10 min-h-[calc(100vh-80px)]'>
             {meals?.map((meal: any) => (
                 <div key={meal.id} className='relative'>
                     <MealItem {...meal} />

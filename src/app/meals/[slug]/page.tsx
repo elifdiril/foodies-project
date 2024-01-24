@@ -17,10 +17,10 @@ const MealDetail = ({ params }: { params: any }) => {
 
   meal.instructions = meal.instructions.replace(/\n/g, "<br />");
   return (
-    <div className="flex flex-col bg-[#FF9B50]">
+    <div className="flex flex-col bg-[#fff]">
       <Header />
       <div className="relative h-3/5 w-4/5 mx-auto my-5">
-        <div className="flex justify-between min-h-[calc(100vh-100px)] overflow-y-auto rounded-3xl w-auto h-96 bg-[#b26c38] p-5 shadow-2xl shadow-[#59361c]">
+        <div className="flex justify-between min-h-[calc(100vh-100px)] overflow-y-auto rounded-3xl w-auto h-96 bg-[#F3D7CA] p-5 shadow-2xl shadow-[#59361c]">
           <div>
             <Image
               src={normalizedImage.default}

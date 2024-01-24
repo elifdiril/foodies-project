@@ -4,9 +4,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-between bg-[#FF9B50]">
+    <div className="flex flex-col justify-between bg-[#fff]">
       <Header />
-      <div className="flex items-center justify-center p-10 min-h-[calc(100vh-80px)] font-bold font-mono text-[#A73121]">
+      <div className="flex items-center justify-center p-10 min-h-[calc(100vh-80px)] font-bold font-mono text-[#402714]">
         Officia laboris ad nisi minim. Aute deserunt pariatur voluptate esse
         ullamco et eu ut. Cillum do ad sit ex laboris id est aliqua
         reprehenderit. Nisi anim fugiat commodo qui anim. Labore ea eu dolor qui

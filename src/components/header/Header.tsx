@@ -5,7 +5,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center text-lg text-[#FFBB5C] bg-[#C63D2F] px-10 h-10">
+    <div className="flex justify-between items-center text-lg text-[#402714] font-mono bg-[#E6A4B4] px-10 h-10">
       <Link href="/">
         <Image
           src={importImages("healthy-food.jpg")}

@@ -17,7 +17,7 @@ export default function MealItem({
 }) {
   const normalizedImage = importImages(image);
   return (
-    <div className="flex flex-col justify-between rounded-3xl w-auto h-96 bg-[#b26c38] p-5 shadow-2xl shadow-[#59361c] hover:shadow-lg">
+    <div className="flex flex-col justify-between rounded-3xl w-auto h-96 bg-[#F3D7CA] p-5 shadow-2xl shadow-[#59361c] hover:shadow-lg">
       <div>
         <Image
           src={normalizedImage.default}
@@ -30,7 +30,7 @@ export default function MealItem({
         <h2 className="font-extrabold text-xl">{title}</h2>
         <p className="font-medium text-base">by {creator}</p>
         <p className="overflow-hidden line-clamp-2">{summary}</p>
-        <div className="cursor-pointer font-bold bg-[#C63D2F] w-3/5 p-1 rounded-full text-[#FFBB5C] hover:opacity-60">
+        <div className="cursor-pointer font-bold bg-[#E6A4B4] w-3/5 p-1 rounded-full text-[#fff] hover:opacity-60">
           <Link href={`/meals/${slug}`}>View Details</Link>
         </div>
       </div>

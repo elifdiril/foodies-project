@@ -4,9 +4,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-between bg-[#FF9B50]">
+    <div className="flex flex-col justify-between bg-[#fff]">
       <Header />
-      <div className="flex items-center justify-center p-10 min-h-[calc(100vh-80px)] text-[#A73121] font-bold font-mono">
+      <div className="flex items-center justify-center p-10 min-h-[calc(100vh-80px)] text-[#402714] font-bold font-mono">
         Minim occaecat sint dolore voluptate in ut aliquip ut do aliqua
         excepteur nostrud ea irure commodo aliqua do ut duis ipsum ipsum laborum
         consequat culpa ullamco non amet qui. Dolore minim reprehenderit ex
