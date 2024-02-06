@@ -14,6 +14,13 @@ pnpm dev
 bun dev
 ```
 
+Node.js version >= v18.17.0 is required.
+
+To create initial database, need to run:
+
+```bash
+node initdb.js
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
