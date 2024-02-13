@@ -14,7 +14,7 @@ const Header = () => {
           className="rounded-md"
         />
       </Link>
-      <Link href="/share" className="hover:opacity-65">Share a Food!</Link>
+      <Link href="/meals/share" className="hover:opacity-65">Share a Food!</Link>
       <div className="flex items-center gap-4 text-lg justify-end">
         <Link className="hover:opacity-65" href="/">Home</Link>
         <Link className="hover:opacity-65" href="/about">About</Link>
