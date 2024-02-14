@@ -8,7 +8,7 @@ import React from "react";
 
 const MealDetail = ({ params }: { params: any }) => {
   const meal = getMeal(params.slug);
-  const { title, image, summary, creator, instructions } = meal;
+  const { title, image, summary, creator } = meal;
   const normalizedImage = importImages(image);
 
   if (!meal) {
@@ -23,7 +23,7 @@ const MealDetail = ({ params }: { params: any }) => {
         <div className="flex justify-between min-h-[calc(100vh-100px)] overflow-y-auto rounded-3xl w-auto h-96 bg-[#F3D7CA] p-5 shadow-2xl shadow-[#59361c]">
           <div>
             <Image
-              src={normalizedImage.default}
+              src={normalizedImage?.default}
               alt={title}
               fill
               className="object-cover rounded-3xl max-w-[50%] p-5"
