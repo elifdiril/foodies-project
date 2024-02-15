@@ -1,7 +1,6 @@
 import Footer from "@/components/header/Footer";
 import Header from "@/components/header/Header";
 import { getMeal } from "@/lib/meals";
-import { importImages } from "@/utils/importImages";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import React from "react";
@@ -9,7 +8,6 @@ import React from "react";
 const MealDetail = ({ params }: { params: any }) => {
   const meal = getMeal(params.slug);
   const { title, image, summary, creator } = meal;
-  const normalizedImage = importImages(image);
 
   if (!meal) {
     notFound();
@@ -23,7 +21,7 @@ const MealDetail = ({ params }: { params: any }) => {
         <div className="flex justify-between min-h-[calc(100vh-100px)] overflow-y-auto rounded-3xl w-auto h-96 bg-[#F3D7CA] p-5 shadow-2xl shadow-[#59361c]">
           <div>
             <Image
-              src={normalizedImage?.default}
+              src={`https://elif-nextjs-demo-image.s3.eu-central-1.amazonaws.com/${image}`}
               alt={title}
               fill
               className="object-cover rounded-3xl max-w-[50%] p-5"
