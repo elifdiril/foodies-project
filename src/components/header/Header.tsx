@@ -7,7 +7,7 @@ const Header = () => {
     <div className="flex justify-between items-center text-lg text-[#402714] font-mono bg-[#E6A4B4] px-10 h-10">
       <Link href="/">
         <Image
-          src={'https://elif-nextjs-demo-image.s3.eu-central-1.amazonaws.com/healthy-food.jpg'}
+          src={`${process.env.AWS_IMAGE_URL}/healthy-food.jpg`}
           alt="logo"
           width={60}
           height={40}

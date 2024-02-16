@@ -7,7 +7,7 @@ import xss from "xss";
 const s3 = new S3({
   accessKeyId: process.env.AWS_ACCESS_KEY_ID,
   secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-  region: "eu-central-1",
+  region: process.env.AWS_REGION,
 });
 const db = sql("meals.db");
 export async function getMeals() {
@@ -28,7 +28,7 @@ export async function saveMeal(meal) {
   const bufferedImage = await meal.image.arrayBuffer();
 
   s3.putObject({
-    Bucket: "elif-nextjs-demo-image",
+    Bucket: "elif-demo-nextjs",
     Key: fileName,
     Body: Buffer.from(bufferedImage),
     ContentType: meal.image.type,

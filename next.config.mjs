@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'elif-nextjs-demo-image.s3.eu-central-1.amazonaws.com',
+        hostname: 'elif-demo-nextjs.s3.eu-central-1.amazonaws.com',
         port: '',
         pathname: '/**',
       },

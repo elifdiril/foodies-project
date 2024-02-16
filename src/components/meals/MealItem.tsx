@@ -18,7 +18,7 @@ export default function MealItem({
     <div className="flex flex-col justify-between rounded-3xl w-auto h-96 bg-[#F3D7CA] p-5 shadow-2xl shadow-[#59361c] hover:shadow-lg">
       <div>
         <Image
-          src={`https://elif-nextjs-demo-image.s3.eu-central-1.amazonaws.com/${image}`}
+          src={`${process.env.AWS_IMAGE_URL}/${image}`}
           alt={title}
           fill
           className="object-cover rounded-3xl max-h-60 p-5"
