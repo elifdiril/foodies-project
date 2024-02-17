@@ -5,6 +5,19 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import React from "react";
 
+export async function generateMetadata({ params }: { params: any }) {
+  const meal = getMeal(params.slug);
+
+  if (!meal) {
+    notFound();
+  }
+  
+  return {
+    title: meal.title,
+    description: meal.summary,
+  };
+}
+
 const MealDetail = ({ params }: { params: any }) => {
   const meal = getMeal(params.slug);
   const { title, image, summary, creator } = meal;
